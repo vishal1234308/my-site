@@ -1,0 +1,150 @@
+.para4{
+  width: 300px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  animation-name: arun;
+  animation-duration: 15s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  text-align:center;
+  font-size:50px;
+border-radius:30px;
+  color:white;
+}
+
+@keyframes arun {
+  0%   {background-color:black; left:0px; top:0px;}
+20%{background-color:grey; left:1300px; top:0px;}
+40%{background-color:black; left:1300px; top:600px;}
+60%{background-color:grey; left:1300px; top:0px;}
+80%{background-color:grey; left:0px; top:00px;}
+
+100%    {background-color:black; left:0px; top:600px;}
+  
+ 
+
+}
+.para5{
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  animation-name: arun2;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  text-align:center;
+  font-size:50px;
+border-radius:30px;
+  color:white;
+}
+
+@keyframes arun2{
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+50%     {background-color:red; left:200px; top:200px;}
+75%     {background-color:yellow; left:0px; top:200px;}
+100%    {background-color:red; left:0px; top:0px;}
+  
+ 
+
+}
+h1{
+color:white;
+font-size:120px;
+font-family:MV Boli;
+font-style=arial;
+text-decoration:underline;
+
+padding:0px 340px;
+
+}
+h2{
+color:white;
+font-size:30px;
+font-style=arial;
+padding: 0px 550px;
+
+}
+
+body{
+background-image:url('http://getwallpapers.com/wallpaper/full/d/a/5/380767.jpg');}
+.first{
+color:white;
+font-size:30px;
+font-family: 'Handlee', cursive;
+font-style=itallic;
+padding:0px 500px;
+}
+.button{
+font-size:24px;
+text-align:center;
+background-color:blue;
+outline:none;
+
+color:white;
+border-radius:15px;
+box-shadow:3px 3px grey;
+}
+.button:hover{
+background-color:green;}
+.last{
+color:white;
+font-size:30px;
+font-family: 'Handlee', cursive;
+padding:0px 510px;
+}
+.skills{
+color:white;
+font-size:30px;
+font-family: 'Handlee', cursive;
+padding:0px 510px;
+}
+.gender{
+color:white;
+font-family: 'Handlee', cursive;
+font-size:30px;
+padding:0px 540px;
+}
+.checkbox{
+color:white;
+font-size:20px;
+
+}
+.radio{
+color:white;
+font-size:20px;
+}
+.email{
+color:white;
+font-size:30px;
+padding:0px 550px;
+font-family: 'Handlee', cursive;
+}
+.phone{
+color:white;
+font-size:30px;
+font-family: 'Handlee', cursive;
+padding:0px 510px;
+}
+.state{
+color:white;
+font-size:30px;
+font-family: 'Handlee', cursive;
+padding:0px 570px;
+}
+.password{
+color:white;
+font-size:30px;
+font-family: 'Handlee', cursive;
+padding:0px 510px;
+}
+.city{
+color:white;
+font-size:30px;
+font-family: 'Handlee', cursive;
+padding:0px 400px;
+}
+.message{
+padding:0px 400px;}

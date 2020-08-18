@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<title>
+my first html file</title>
+
+<head>
+<script type="text/javascript" style="color:red;">
+var x=0;
+function checkField1(){
+var field=document.getElementById("field1").value;
+if(field==7){
+document.getElementById("message1").innerHTML="Well done!,your answer is correct";
+x++;
+}
+else
+document.getElementById("message1").innerHTML="wrong!! correct answer is 7";
+}
+function checkField2(){
+var field=document.getElementById("field2").value;
+if(field==163){
+document.getElementById("message2").innerHTML="Well done!,your answer is correct";
+x++;
+}else
+document.getElementById("message2").innerHTML="wrong!! correct answer is 163";
+}
+function checkField3(){
+var field=document.getElementById("field3").value;
+if(field==4){
+document.getElementById("message3").innerHTML="Well done!,your answer is correct";
+x++;
+}
+else
+document.getElementById("message3").innerHTML="wrong!! correct answer is 4";
+ }
+function checkField4(){
+var field=document.getElementById("field4").value;
+if(field==152){
+document.getElementById("message4").innerHTML="Well done!,your answer is correct";
+x++;
+}
+else
+document.getElementById("message4").innerHTML="wrong!! correct answer is 152";
+ }
+function checkField6(){
+var field=document.getElementById("field6").value;
+if(field==80){
+document.getElementById("message6").innerHTML="Well done!,your answer is correct";
+x++;
+}
+else
+document.getElementById("message6").innerHTML="wrong!! correct answer is 80";
+ }
+function checkField5(){
+alert("your score is  "+   x +" / 5");}
+</script>
+</head>
+<body onload="alert('nice to meet you');">
+<h1 style="color:blue;">lets check your maths</h1>
+<p style="color:red;"> 2 + 5= &nbsp&nbsp&nbsp<input id="field1"  type="number" style="size:100px;border-color:red;text-align:center;background-color:yellow;box-align:center;color:red;" onblur="checkField1();"/><span id="message1"></span>
+</p>
+<hr>
+<p style="color:red;"> 652 / 4= <input id="field2"  type="number"style="border-color:red;text-align:center;size:100px;background-color:yellow;box-align:center;color:red;" onblur="checkField2();"/><span id="message2"></span>
+</p>
+<hr>
+<p style="color:red;"> 32 / 8 = &nbsp<input id="field3"  type="number" style="border-color:red;text-align:center;background-color:yellow;box-align:center;color:red;" onblur="checkField3();"/><span id="message3"></span>
+</p>
+<hr>
+<p style="color:red;"> 19 * 8 = &nbsp<input id="field4"  type="number" style="border-color:red;text-align:center;background-color:yellow;box-align:center;color:red;" onblur="checkField4();"/><span id="message4"></span>
+</p>
+<hr>
+<p style="color:red;"> 16 * 5 = &nbsp<input id="field6"  type="number" style="border-color:red;text-align:center;background-color:yellow;box-align:center;color:red;" onblur="checkField6();"/><span id="message6"></span>
+</p>
+<hr>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="checkField5()" style="background-color:yellow;text-align:center;color:red;">get score</button>
+
+</body>
+</html>

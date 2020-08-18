@@ -1,0 +1,105 @@
+table{
+
+border:1px solid red;
+border-collapse:collapse;
+width:90%;
+font-size:40px;
+}
+td{
+border:1px solid red;
+text-align:center;
+text-size:20px;
+}
+
+tr:nth-child(even){
+background-color:rgb(202,246,244);
+color:blue;}
+
+tr:nth-child(odd){
+background-color:rgb(3,250,239);
+color:red;}
+a:link{
+color:green;}
+a:hover{
+background-color:rgb(244,240,113);
+color:red;}
+body{
+background-color:rgb(147,153,147);}
+.div1{
+font-size:40px;
+color:solid red;
+font-style:italic:
+font-color:solid yellow;
+border-radius:30px;
+animation-name:example;
+animation-duration:2s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+text-align:center;
+border: 5px solid red;
+color:red;
+}
+.para1{
+font-style:italic;
+color:white;
+background-color:blue;
+border-radius:30px;
+font-size:30px;
+text-align:center;
+
+}
+.para2{
+font-style:italic;
+color:white;
+background-color:red;
+border-radius:30px;
+font-size:30px;
+text-align:center;
+
+}
+.para3{
+font-style:italic;
+background-color:rgb(8,138,4);
+color:white;
+width:500px;
+transition: width 3s;
+font-size:30px;
+text-align:center;
+border-radius:30px;
+}
+.para3:hover{
+background-color:purple;
+width:1000px;}
+.para2:hover{
+background-color:purple;}
+.para1:hover{
+background-color:purple;}
+.para4{
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  animation-name: arun;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  text-align:center;
+  font-size:50px;
+border-radius:30px;
+  color:white;
+}
+
+@keyframes arun {
+  0%   {background-color:red; left:0px; top:0px;}
+  100%  {background-color:yellow; left:1000px; top:0px;}
+  
+ 
+
+}
+
+
+@keyframes example{
+from{background-color:yellow;}
+to {background-color: rgb(21,238,218);}
+
+}

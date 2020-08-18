@@ -1,0 +1,163 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+<title> assignament 3</title>
+<link rel="stylesheet" type="text/css" href="assign3.css">
+<script type="text/javascript" src="assign3.js">
+function validate1(){ 
+var fname = document.getElementById("field_1").value;
+        var rel = /^[a-zA-Z\s\'\-]{2,15}$/;
+        if (rel.test(fname)) {
+          document.getElementById("name_field1").style.color = "green";
+          document.getElementById("name_field1").innerHTML = "Hi  "+ fname +"!!";
+        } else {
+          document.getElementById("name_field1").style.color = "Red";
+          document.getElementById("name_field1").innerHTML =
+            "Please enter 2-15 characters";
+
+        }
+}
+
+
+
+</script>
+<style>
+table{
+
+border:1px solid red;
+border-collapse:collapse;
+width:90%;
+font-size:40px;
+}
+td{
+border:1px solid red;
+text-align:center;
+text-size:20px;
+}
+
+tr:nth-child(even){
+background-color:rgb(202,246,244);
+color:blue;}
+
+tr:nth-child(odd){
+background-color:rgb(3,250,239);
+color:red;}
+a:link{
+color:green;}
+a:hover{
+background-color:rgb(244,240,113);
+color:red;}
+body{
+background-color:rgb(147,153,147);}
+.div1{
+font-size:40px;
+color:solid red;
+font-style:italic:
+font-color:solid yellow;
+border-radius:30px;
+animation-name:example;
+animation-duration:2s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+text-align:center;
+border: 5px solid red;
+color:red;
+}
+.para1{
+font-style:italic;
+color:white;
+background-color:blue;
+border-radius:30px;
+font-size:30px;
+text-align:center;
+
+}
+.para2{
+font-style:italic;
+color:white;
+background-color:red;
+border-radius:30px;
+font-size:30px;
+text-align:center;
+
+}
+.para3{
+font-style:italic;
+background-color:rgb(8,138,4);
+color:white;
+width:500px;
+transition: width 3s;
+font-size:30px;
+text-align:center;
+border-radius:30px;
+}
+.para3:hover{
+background-color:purple;
+width:1000px;}
+.para2:hover{
+background-color:purple;}
+.para1:hover{
+background-color:purple;}
+.para4{
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  animation-name: arun;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  text-align:center;
+  font-size:50px;
+border-radius:30px;
+  color:white;
+}
+
+@keyframes arun {
+  0%   {background-color:red; left:0px; top:0px;}
+  100%  {background-color:yellow; left:1000px; top:0px;}
+  
+ 
+
+}
+
+
+@keyframes example{
+from{background-color:yellow;}
+to {background-color: rgb(21,238,218);}
+
+}
+</style>
+</head>
+<body>
+<div class="div1"><h1 style="color:solid red;"> "ONLINE SHOPPING" </h1></div>
+<div class="para1" style="text-size:30px;"><p > Online shopping is the process whereby consumers directly buy goods or services from a seller in real-time, without an intermediary service, over the Internet. It is a form of electronic commerce.</p></div>
+<div class="para2"><p>A good online store is a website that is easy to navigate and browse for possible purchases. It has a product catalog that customers can use to browse the search criteria (usually a type, price, material, age, etc.), and information about the products, the sellers, and the service center. Online stores may also discuss business conditions and a Complaints Procedure. </p></div>
+<div class="para3"><p>some popular shopping sites</p></div>
+<div class="para4"><p>Arun's</p></div>
+<form style="font-size:20px;color:red;">
+<str>
+ First Name:
+<input type="text" placeholder=" First Name" name="Get_name" id="field_1" onblur="validate1()" />
+<span id="name_field1" >&nbsp</span>
+</form>
+<table>
+<tr>
+<td>sr.no</td><td>name</td><td>symbol</td><td>visit</td>
+</tr>
+<tr>
+<td>1</td><td>amazon</td><td><img style="height:60px;width:100px;" src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo.png"/></td><td><a href="https://www.amazon.in/?tag=enin-edge-ntp-topsites-affiliates-21"/>click to open</td>
+</tr>
+<tr>
+<td>2</td><td>flipkart</td><td><img style="height:60px;width:100px;" src="https://logos-download.com/wp-content/uploads/2016/09/Flipkart_logo.png"/></td><td><a href="https://www.flipkart.com/"/>click to open</td>
+</tr><tr>
+<td>3</td><td>snapdeal</td><td><img style="height:60px;width:100px;" src="https://cdn.freebiesupply.com/logos/large/2x/snapdeal-logo-png-transparent.png"/></td><td><a href="https://www.snapdeal.com/"/>click to open</td>
+</tr><tr>
+<td>4</td><td>club factory</td><td><img style="height:60px;width:100px;" src="https://cdn.apk-cloud.com/detail/screenshot/7_hKrLI9ldcRyuLv9neE3R_l2piNSLLfVgpkTZa3JYFEuLcuwTtfMLcyYpiUEhIf0I0=h900.png"/></td><td><a href="https://www.clubfactory.com/"/>click to open</td>
+</tr>
+<tr>
+<td>4</td><td>shop clues</td><td><img style="height:60px;width:100px;" src="https://www.consumercomplaints.in/thumb.php?bname=1&src=shopcluescom.png&wmax=900&hmax=900&quality=90&nocrop=1"/></td><td><a href="www.shopclues.com"/>click to open</td>
+</tr>
+</table>
+</body>
+</html>
