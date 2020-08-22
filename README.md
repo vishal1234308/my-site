@@ -1,0 +1,2 @@
+# my-site
+This is a sample website, as it is not live. This website is fully responsive and made using css, javascript, html, bootstrap. This website can be used by collage students to learn how to design an educational website. If you are a beginner and you want to see how we can design a website than just go through this code. Collage students can also use this website as a project and show in their collages if they want to.
